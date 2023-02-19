@@ -1,0 +1,5 @@
+.grid-container {
+  display: "grid";
+  background-color: aqua;
+  grid-template-columns: 200px 100px;
+}
