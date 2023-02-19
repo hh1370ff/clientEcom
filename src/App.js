@@ -1,5 +1,4 @@
 import { Routes, Route, useLocation } from "react-router-dom";
-import "./index.css";
 import { useEffect } from "react";
 import Home from "./page/home/Home";
 import MainLayout from "./layouts/MainLayout";

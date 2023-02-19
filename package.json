@@ -14,12 +14,8 @@
     "@mui/styled-engine-sc": "^5.11.0",
     "@mui/styles": "^5.11.7",
     "@reduxjs/toolkit": "^1.9.2",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "axios": "^1.2.6",
     "blurhash": "^2.0.4",
-    "fs": "^0.0.1-security",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-blurhash": "^0.3.0",
@@ -60,9 +56,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.2.4"
-  },
-  "proxy": "http://localhost:3500"
+  }
 }
