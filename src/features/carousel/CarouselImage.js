@@ -5,13 +5,14 @@ import { useSelector } from "react-redux";
 import { selectCarouselImageById } from "../carouselImage/carouselImageSlice";
 
 const CarouselImage = ({ item }) => {
+  console.log("🚀 ~ file: CarouselImage.js:8 ~ CarouselImage ~ item", item);
   /* image*/
   const image = useSelector((state) =>
     selectCarouselImageById(state, item._id)
   );
 
   return (
-    <Box>
+    <Box sx={{ height: `calc(100vh - 10rem)` }}>
       {image === null ? (
         <Blurhash
           hash={item.blurHash}

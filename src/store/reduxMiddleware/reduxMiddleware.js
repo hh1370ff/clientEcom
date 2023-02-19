@@ -7,10 +7,6 @@ import {
 const saveCartItemsToLocalStorage = (store) => (next) => (action) => {
   const result = next(action);
 
-  console.log(
-    "🚀 ~ file: reduxMiddleware.js:8 ~ saveCartItemsToLocalStorage ~ saveCartItemsToLocalStorage"
-  );
-
   if (
     action.type === addItemToCart.type ||
     action.type === decFromCart.type ||

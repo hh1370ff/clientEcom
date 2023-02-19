@@ -51,6 +51,7 @@ const authSlice = createSlice({
       .addCase(logOut.fulfilled, (state, action) => {
         state.accessToken = null;
         state.role = null;
+        localStorage.removeItem("cartItems");
         localStorage.setItem("login", false);
       });
   },
